@@ -1,7 +1,16 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Category.create!([
+  {name: "Men", image: nil},
+  {name: "Women", image: nil},
+  {name: "Children", image: nil}
+])
+Product.create!([
+  {name: "Male shirt long sleeve", description: "Fashion New Male Shirt Long Sleeve Mens Clothes Oblique Button Dress Shirts Mandarin Collar Men Tuxedo Shirts NZ15", price: 120, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/30735/288868/2018-Fashion-New-Male-Shirt-Long-Sleeve-Mens-Clothes-Oblique-Button-Dress-Shirts-Mandarin-Collar-Men__22943.1580302013.jpg?c=2?imbypass=on", category_id: 1},
+  {name: "Thick and thin Army Green", description: "2017 High quality Ma1 Thick and thin Army Green Military motorcycle Ma-1 aviator pilot Air men bomber jacket", price: 80, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/15867/151049/2017-High-quality-Ma1-Thick-and-thin-Army-Green-Military-motorcycle-Ma-1-aviator-pilot-Air__31237.1544705569.jpg?c=2", category_id: 1},
+  {name: "Tactical Men Jacket Lurker", description: "Brand Jacket V5.0 Military Tactical Men Jacket Lurker Shark Skin Soft Shell Waterproof Windproof Men windbreaker Jacket Coat", price: 50, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/15908/151304/Brand-Jacket-V5-0-Military-Tactical-Men-Jacket-Lurker-Shark-Skin-Soft-Shell-Waterproof-Windproof__92088.1544706054.jpg?c=2", category_id: 1},
+  {name: "Jacket Blazer Women Suit", description: "2016 Fashion Basic Jacket Blazer Women Suit Cardigan Puff Sleeve Ladies Autumn Plus Size Brand Coats Casual blazer female", price: 99, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/4501/35457/2016-Fashion-Basic-Jacket-Blazer-Women-Suit-Cardigan-Puff-Sleeve-Ladies-Autumn-Plus-Size-Brand-Coats__85267.1580120368.jpg?c=2", category_id: 2},
+  {name: "Autumn Winter Cotton Knitted", description: "Piece Women Sweat Suits Set 2017 Autumn Winter Cotton Knitted Hoodies Pants Ladies Slim Fitness Tracksuits Two Piece Outfits", price: 75, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/1883/7501/2-Piece-Women-Sweat-Suits-Set-2017-Autumn-Winter-Cotton-Knitted-Hoodies-Pants-Ladies-Slim-Fitness__26616.1576641610.jpg?c=2", category_id: 2},
+  {name: "Winter Faux Leather Jacket", description: "Winter Faux Leather Jacket Women Casual Basic Coats Plus Size 7XL Ladies Basic Jackets Waterproof Windproof Coats Female 50", price: 110, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/30579/287242/2018-Winter-Faux-Leather-Jacket-Women-Casual-Basic-Coats-Plus-Size-7XL-Ladies-Basic-Jackets-Waterproof__95180.1579577762.jpg?c=2", category_id: 2},
+  {name: "Child Snow Boots Shoes Boys", description: "Fashion New Child Snow Boots Shoes Boys Girls Leather Boots Children Kids Baby Toddlers Shoes For Boys Girls Sneakers Shoe", price: 40, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/19343/171204/Fashion-New-Child-Snow-Boots-Shoes-Boys-Girls-Leather-Boots-Children-Kids-Baby-Toddlers-Shoes__83623.1545308347.jpg?c=2", category_id: 3},
+  {name: "New baby rompers Newborn", description: "2018 New baby rompers Newborn Infant Baby Boy Girl Summer clothes Cute Cartoon Printed Romper Jumpsuit Climbing Clothes #Nxt", price: 20, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/7260/65565/2018-New-baby-rompers-Newborn-Infant-Baby-Boy-Girl-Summer-clothes-Cute-Cartoon-Printed-Romper-Jumpsuit__49415.1587701989.jpg?c=2", category_id: 3},
+  {name: "Duck Design Baby Baseball", description: "2018 New Cute Duck Design Baby Baseball Hat Cap For Boys Girls Sun Hat Kid Hat Children Cap Snapback Cap Outdoor Sports", price: 15, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/4232/32483/2018-New-Cute-Duck-Design-Baby-Baseball-Hat-Cap-For-Boys-Girls-Sun-Hat-Kid-Hat__20012.1592994375.jpg?c=2", category_id: 3}
+])
