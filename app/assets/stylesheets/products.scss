@@ -1,0 +1,47 @@
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.scss.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.product-wrap {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.products-list {
+  position: relative;
+  padding: 50px 10px;
+  border: 1px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.product-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+}
+.product-category {
+  color: #999999;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.product-price {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-family: 'Bebas Neue', cursive;
+  color: #7e0019;
+  font-size: 40px;
+}
+.products-list:hover {
+  transition: .5s;
+  border: 1px solid #b1b1b1;
+  cursor: pointer;
+  border-bottom: 3px solid #000000;
+}
+
+.logo-style {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 30px !important;
+}
+
+.bg-dark-custom {
+  background-color: #7e0019;
+}

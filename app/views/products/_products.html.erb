@@ -1,0 +1,26 @@
+<section class="product-wrap">
+  <div class="container">
+    <div class="row">
+      <% @products.each do |product| %>
+        <div class="col-sm-6 col-lg-4">
+          <div class="products-list">
+            <div>
+              <%= link_to image_tag(product.image, width: "200", class: "img-fluid"), product %>
+            </div>
+            <div class="product-title">
+              <%= product.name %>
+            </div>
+            <div class="product-price">
+              <%= product.price %> <%= "$" %>
+            </div>
+            <div class="product-category">
+              <%= product.category.name %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <p id="notice"><%= notice %></p>
+  </div>
+</section>
+
