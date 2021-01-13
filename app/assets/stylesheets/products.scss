@@ -5,7 +5,9 @@
   text-align: center;
   margin-top: 30px;
 }
-
+.product-detail-wrap {
+  margin-top: 50px;
+}
 .products-list {
   position: relative;
   padding: 50px 10px;
@@ -17,6 +19,10 @@
   font-family: 'Anton', sans-serif;
   font-size: 22px;
 }
+.product-title-detail {
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+}
 .product-category {
   color: #999999;
   font-size: 12px;
@@ -26,6 +32,11 @@
   position: absolute;
   top: 5px;
   right: 10px;
+  font-family: 'Bebas Neue', cursive;
+  color: #7e0019;
+  font-size: 40px;
+}
+.product-price-details {
   font-family: 'Bebas Neue', cursive;
   color: #7e0019;
   font-size: 40px;
@@ -44,4 +55,27 @@
 
 .bg-dark-custom {
   background-color: #7e0019;
+}
+.btn-custom-light {
+  background-color: white;
+  padding: 5px 10px;
+  color: #7e0019;
+  border-radius: 0;
+  border: 2px solid #7e0019;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+}
+.btn-custom-light:hover {
+  color: #7e0019;
+  border: 2px solid #999999;
+}
+.product-description-details {
+  margin-top: 50px;
+  font-family: 'Bebas Neue', cursive;
+  color: #999999;
+}
+.product-description-details h3 {
+  font-family: 'Bebas Neue', cursive;
+  border-bottom: 2px solid #7e0019;
+  color: #000000;
 }

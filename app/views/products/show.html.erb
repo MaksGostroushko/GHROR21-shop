@@ -1,4 +1,32 @@
-<p id="notice"><%= notice %></p>
+<section class="product-detail-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+        <div>
+          <%= image_tag(@product.image, width: "400", class: "img-fluid")%>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6">
+        <div class="product-title-detail">
+          <%= @product.name %>
+        </div>
+        <div class="product-category">
+          <%= 'for:' %> <%= @product.category.name %>
+        </div>
+        <div class="product-price-details">
+          <%= @product.price %> <%= "$" %>
+        </div>
+        <div>
+          <button class='btn-custom-light'><i class="fa fa-cart-plus"> Add to cart</i></button>
+        </div>
+        <div class="product-description-details">
+          <h3>Desription:</h3>
+          <%= @product.description %> <%= "$" %>
+        </div>
+      </div>
+    </div>
+    <p id="notice"><%= notice %></p>
+  </div>
+</section>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+
