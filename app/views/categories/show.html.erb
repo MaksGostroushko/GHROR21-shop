@@ -1,6 +1,31 @@
-p#notice = notice
-
-
-=> link_to 'Edit', edit_category_path(@category)
-'|
-=< link_to 'Back', categories_path
+<div class="container">
+        <h3 class="category-title"><%= @category.name %> <%= "clothes:" %></h3>
+  <div class="filter-wrap">
+    <div class="filter-list">
+      Sort by price:
+      <%= link_to (fa_icon "sort-amount-asc"), category_path(sort: 'lowPrice'), class:'btn-custom-light' %>
+      <%= link_to (fa_icon "sort-amount-desc"), category_path(sort: 'highPrice'), class:'btn-custom-light' %>
+    </div>
+    <div class="filter-list">
+      Sort by name:
+      <%= link_to (fa_icon "sort-alpha-asc"), category_path(sort: 'alphabetAsc'), class:'btn-custom-light' %>
+      <%= link_to (fa_icon "sort-alpha-desc"), category_path(sort: 'alphabetDesc'), class:'btn-custom-light' %>
+    </div>
+    <div class="filter-list">
+      <%= form_with url: products_path, method: :get, local: true do |form| %>
+        <%= form.number_field :min, class: "form-input-number",
+                              placeholder: "min price" %>
+        <%= form.number_field :max, class: "form-input-number",
+                              placeholder: "max price" %>
+        <%= button_tag type: 'submit', class: "btn-transparent-light" do %>
+          <i class="fa fa-search" aria-hidden="true"></i>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+        <%= render 'products/products' %>
+        <div>
+          <%= will_paginate @products %>
+        </div>
+      </div>
+</div>

@@ -1,6 +1,7 @@
 .digg_pagination {
   background: white;
   cursor: default;
+  font-family: 'Bebas Neue', cursive;
   /* self-clearing method: */ }
 .digg_pagination a, .digg_pagination span, .digg_pagination em {
   padding: 0.3em 1em;
@@ -21,7 +22,7 @@
 .digg_pagination a {
   text-decoration: none;
   color: #7e0019;
-  border: 1px solid #7e0019; }
+  border: 2px solid #7e0019; }
 .digg_pagination a:hover, .digg_pagination a:focus {
   color: #7e0019;
   background-color: #ffffff;

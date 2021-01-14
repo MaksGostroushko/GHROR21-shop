@@ -1,19 +1,12 @@
-h1 Listing categories
-
-table
-  thead
-    tr
-      th
-      th
-      th
-
-  tbody
-    - @categories.each do |category|
-      tr
-        td = link_to 'Show', category
-        td = link_to 'Edit', edit_category_path(category)
-        td = link_to 'Destroy', category, data: { confirm: 'Are you sure?' }, method: :delete
-
-br
-
-= link_to 'New Category', new_category_path
+<section class="category-wrap">
+    <div class="row no-gutters">
+      <% Category.all.each do |category| %>
+        <div class="col-sm-12 col-lg-4">
+          <div class="categories-list">
+            <p>all for:</p>
+          <%= link_to category.name, category_path(category) %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+</section>

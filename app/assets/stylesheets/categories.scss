@@ -1,3 +1,46 @@
 // Place all the styles related to the Categories controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.category-wrap {
+  text-align: center;
+  margin-top: 30px;
+}
+.categories-list {
+  padding: 20px 30px;
+  background-color: #f5f5f5;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.categories-list a {
+  color: #000000;
+}
+.categories-list a:hover {
+  color: #7e0019;
+  text-decoration: none;
+  background-color: transparent;
+}
+.categories-list p {
+  color: #000000;
+  margin-bottom: 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+}
+.category-title {
+  padding: 20px 30px;
+  background-color: #f5f5f5;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  margin: 30px 0;
+}
+.footer-wrap {
+  margin-top: 30px;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  text-align: left;
+}
+.footer-wrap p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}

@@ -3,7 +3,6 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .product-wrap {
   text-align: center;
-  margin-top: 30px;
 }
 .product-detail-wrap {
   margin-top: 50px;
@@ -43,7 +42,7 @@
 }
 .products-list:hover {
   transition: .5s;
-  border: 1px solid #b1b1b1;
+  border: 1px solid #dbddde;
   cursor: pointer;
   border-bottom: 3px solid #000000;
 }
@@ -56,6 +55,9 @@
 .bg-dark-custom {
   background-color: #7e0019;
 }
+.bg-dark-custom a {
+  background-color: transparent;
+}
 .btn-custom-light {
   background-color: white;
   padding: 5px 10px;
@@ -66,8 +68,10 @@
   font-family: 'Bebas Neue', cursive;
 }
 .btn-custom-light:hover {
-  color: #7e0019;
-  border: 2px solid #999999;
+  background-color: #7e0019;
+  color: #ffffff;
+  border: 2px solid #7e0019;
+  transition: .5s;
 }
 .product-description-details {
   margin-top: 50px;
@@ -79,3 +83,44 @@
   border-bottom: 2px solid #7e0019;
   color: #000000;
 }
+.filter-wrap {
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px 20px;
+  border: 1px solid #dbddde;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.filter-list {
+  display: inline-block;
+  margin: 10px;
+}
+.form-control {
+  border-radius: 0 !important;
+  min-width: 300px;
+  font-family: 'Bebas Neue', cursive;
+  border: 2px solid white;
+}
+.btn-light {
+  border-radius: 0 !important;
+}
+.form-input-number {
+  border-radius: 0 !important;
+  width: 100px;
+  padding: 3px 5px;
+  font-family: 'Bebas Neue', cursive;
+  border: 2px solid #7e0019;
+}
+.btn-transparent-light {
+  background-color: white;
+  padding: 3px 5px;
+  color: #7e0019;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+}
+.btn-transparent-light:hover {
+  color: #707070;
+  transition: .5s;
+}
+
