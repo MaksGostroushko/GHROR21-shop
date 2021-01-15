@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e0fe08-b1e3-41b3-bea3-09d9282da260" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/_categories.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/_categories.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +176,7 @@
       <workItem from="1610485114009" duration="11112000" />
       <workItem from="1610555994840" duration="22071000" />
       <workItem from="1610644766628" duration="889000" />
-      <workItem from="1610697516993" duration="11663000" />
+      <workItem from="1610697516993" duration="13026000" />
     </task>
     <servers />
   </component>
@@ -206,6 +196,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="639" y="226" key="#Docker" timestamp="1610721160793">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="639" y="226" key="#Docker/0.23.1680.952@0.23.1680.952" timestamp="1610721160793" />
     <state x="440" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610452344200">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
@@ -214,44 +208,44 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.952@0.23.1680.952" timestamp="1610534185838" />
-    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1610719574291">
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1610720090939">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610719574291" />
-    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1610719574290">
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610720090939" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1610720090938">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1610719574290" />
-    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1610719574290">
+    <state width="1638" height="255" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1610720090938" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1610720090937">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1610719574290" />
-    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1610719574291">
+    <state width="1638" height="255" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1610720090937" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1610720090938">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1610719574291" />
-    <state width="1638" height="255" key="GridCell.Tab.1.bottom" timestamp="1610719574293">
+    <state width="1638" height="255" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1610720090938" />
+    <state width="1638" height="255" key="GridCell.Tab.1.bottom" timestamp="1610720090941">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610719574293" />
-    <state width="1638" height="255" key="GridCell.Tab.1.center" timestamp="1610719574292">
+    <state width="1638" height="255" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610720090941" />
+    <state width="1638" height="255" key="GridCell.Tab.1.center" timestamp="1610720090940">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1610719574292" />
-    <state width="1638" height="255" key="GridCell.Tab.1.left" timestamp="1610719574292">
+    <state width="1638" height="255" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1610720090940" />
+    <state width="1638" height="255" key="GridCell.Tab.1.left" timestamp="1610720090939">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1610719574292" />
-    <state width="1638" height="255" key="GridCell.Tab.1.right" timestamp="1610719574292">
+    <state width="1638" height="255" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1610720090939" />
+    <state width="1638" height="255" key="GridCell.Tab.1.right" timestamp="1610720090940">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1610719574292" />
-    <state x="341" y="138" key="SettingsEditor" timestamp="1610451744259">
+    <state width="1638" height="255" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1610720090940" />
+    <state x="341" y="138" key="SettingsEditor" timestamp="1610721167507">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="341" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1610451744259" />
+    <state x="341" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1610721167507" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1610719574236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
+    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1610720033377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
   </component>
 </project>
