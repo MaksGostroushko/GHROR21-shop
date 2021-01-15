@@ -36,12 +36,11 @@
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
-        <%= form_with url: search_products_path, method: :get, local: true, class: "input-group" do |form| %>
-          <%= form.text_field :query, id: :query, data: {autocomplete_source: products_path}, class: "form-control", placeholder: "Search" %>
+        <%= form_with url: search_products_path, method: :get, local: true do |form| %>
+          <%= form.text_field :query, class: "form-control", data: { behavior: "autocomplete" } %>
           <%= button_tag type: 'submit', class: "btn btn-light" do %>
             <i class="fa fa-search" aria-hidden="true"></i>
           <% end %>
-          <%#= form.submit "Search", class: "btn btn-light" %>
         <% end %>
       </form>
     </div>

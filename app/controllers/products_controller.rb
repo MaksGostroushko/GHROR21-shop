@@ -1,8 +1,10 @@
 class ProductsController < ApplicationController
 
   def index
+
     @products = Product.all
     @products = Product.paginate(page: params[:page], per_page: 6)
+
 
     if params[:sort] == 'lowPrice'
       @products = Product.order(price: :ASC).paginate(page: params[:page], per_page: 6)
@@ -14,7 +16,11 @@ class ProductsController < ApplicationController
       @products = Product.order(name: :DESC).paginate(page: params[:page], per_page: 6)
     elsif params[:min] || params[:max]
       @products = Product.where(price: [params[:min]].first..[params[:max]].last).paginate(page: params[:page], per_page: 6)
+    elsif params[:query]
+      @products = Product.where('name ILIKE ?', "%#{params[:query]}%").paginate(page: params[:page], per_page: 6)
+      render "products/index"
     end
+
   end
 
 
@@ -23,8 +29,11 @@ class ProductsController < ApplicationController
   end
 
   def search
-    @products = Product.where("name ILIKE ? OR description ILIKE ?", "%#{params[:query]}%", "%#{params[:query]}%").paginate(page: params[:page], per_page: 6)
+    @products = Product.where('name ILIKE ?', "%#{params[:query]}%").paginate(page: params[:page], per_page: 3)
     render "products/index"
   end
+
+  private
+
 end
 
