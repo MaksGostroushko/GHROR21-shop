@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e0fe08-b1e3-41b3-bea3-09d9282da260" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,7 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="95e0fe08-b1e3-41b3-bea3-09d9282da260" name="Default Changelist" comment="" />
@@ -176,7 +177,7 @@
       <workItem from="1610485114009" duration="11112000" />
       <workItem from="1610555994840" duration="22071000" />
       <workItem from="1610644766628" duration="889000" />
-      <workItem from="1610697516993" duration="13026000" />
+      <workItem from="1610697516993" duration="14473000" />
     </task>
     <servers />
   </component>
@@ -208,44 +209,44 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.952@0.23.1680.952" timestamp="1610534185838" />
-    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1610720090939">
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1610722632907">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610720090939" />
-    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1610720090938">
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610722632907" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1610722632907">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1610720090938" />
-    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1610720090937">
+    <state width="1638" height="255" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1610722632907" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1610722632906">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1610720090937" />
-    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1610720090938">
+    <state width="1638" height="255" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1610722632906" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1610722632907">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1610720090938" />
-    <state width="1638" height="255" key="GridCell.Tab.1.bottom" timestamp="1610720090941">
+    <state width="1638" height="255" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1610722632907" />
+    <state width="1638" height="255" key="GridCell.Tab.1.bottom" timestamp="1610722632909">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610720090941" />
-    <state width="1638" height="255" key="GridCell.Tab.1.center" timestamp="1610720090940">
+    <state width="1638" height="255" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610722632909" />
+    <state width="1638" height="255" key="GridCell.Tab.1.center" timestamp="1610722632908">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1610720090940" />
-    <state width="1638" height="255" key="GridCell.Tab.1.left" timestamp="1610720090939">
+    <state width="1638" height="255" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1610722632908" />
+    <state width="1638" height="255" key="GridCell.Tab.1.left" timestamp="1610722632908">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1610720090939" />
-    <state width="1638" height="255" key="GridCell.Tab.1.right" timestamp="1610720090940">
+    <state width="1638" height="255" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1610722632908" />
+    <state width="1638" height="255" key="GridCell.Tab.1.right" timestamp="1610722632908">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1610720090940" />
-    <state x="341" y="138" key="SettingsEditor" timestamp="1610721167507">
+    <state width="1638" height="255" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1610722632908" />
+    <state x="341" y="138" key="SettingsEditor" timestamp="1610722334637">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="341" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1610721167507" />
+    <state x="341" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1610722334637" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1610720033377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
+    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1610722593052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
   </component>
 </project>
