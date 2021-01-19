@@ -28,11 +28,6 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
   end
 
-  def search
-    @products = Product.where('name ILIKE ?', "%#{params[:query]}%").paginate(page: params[:page], per_page: 3)
-    render "products/index"
-  end
-
   private
 
 end

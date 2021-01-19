@@ -1,0 +1,27 @@
+.form-wrap {
+  max-width: 350px;
+  margin: 30px auto;
+  font-family: 'Bebas Neue', cursive;
+  padding: 20px;
+  height: 70vh;
+}
+.form-wrap a:hover {
+  color: #7e0019;
+  text-decoration: none;
+  background-color: transparent;
+  transition: .5s;
+}
+.form-wrap h2 {
+  font-size: 26px;
+  text-align: center;
+  color: #7e0019;
+}
+.input-form {
+  width: 100%;
+  padding: 3px 5px;
+  border: none;
+  border-bottom: 2px solid #7e0019;
+}
+.input-form:focus {
+  outline: none;
+}

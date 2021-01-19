@@ -14,3 +14,4 @@ Product.create!([
   {name: "New baby rompers Newborn", description: "2018 New baby rompers Newborn Infant Baby Boy Girl Summer clothes Cute Cartoon Printed Romper Jumpsuit Climbing Clothes #Nxt", price: 20, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/7260/65565/2018-New-baby-rompers-Newborn-Infant-Baby-Boy-Girl-Summer-clothes-Cute-Cartoon-Printed-Romper-Jumpsuit__49415.1587701989.jpg?c=2", category_id: 3},
   {name: "Duck Design Baby Baseball", description: "2018 New Cute Duck Design Baby Baseball Hat Cap For Boys Girls Sun Hat Kid Hat Children Cap Snapback Cap Outdoor Sports", price: 15, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/4232/32483/2018-New-Cute-Duck-Design-Baby-Baseball-Hat-Cap-For-Boys-Girls-Sun-Hat-Kid-Hat__20012.1592994375.jpg?c=2", category_id: 3}
 ])
+User.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?

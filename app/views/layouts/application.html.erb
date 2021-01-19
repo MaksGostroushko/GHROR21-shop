@@ -43,6 +43,13 @@
           <% end %>
         <% end %>
       </form>
+      <div class="form-inline ml-5">
+        <% if current_user %>
+          <%= link_to (fa_icon "user-o", text: "Log out"), destroy_user_session_path, class: "btn btn-custom-light", method: :delete %>
+        <% else %>
+          <%= link_to (fa_icon "user-o", text: "Log in or Sign up"), new_user_session_path, class: "btn btn-custom-light", method: :get %>
+        <% end %>
+      </div>
     </div>
   </div>
 </nav>

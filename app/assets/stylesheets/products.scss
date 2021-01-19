@@ -4,9 +4,11 @@
 .product-wrap {
   text-align: center;
 }
+
 .product-detail-wrap {
   margin-top: 50px;
 }
+
 .products-list {
   position: relative;
   padding: 50px 10px;
@@ -18,15 +20,18 @@
   font-family: 'Anton', sans-serif;
   font-size: 22px;
 }
+
 .product-title-detail {
   font-family: 'Anton', sans-serif;
   font-size: 32px;
 }
+
 .product-category {
   color: #999999;
   font-size: 12px;
   text-transform: uppercase;
 }
+
 .product-price {
   position: absolute;
   top: 5px;
@@ -35,17 +40,19 @@
   color: #7e0019;
   font-size: 40px;
 }
+
 .product-price-details {
   font-family: 'Bebas Neue', cursive;
   color: #7e0019;
   font-size: 40px;
 }
+
 .products-list:hover {
   transition: .5s;
   border: 1px solid #dbddde;
   cursor: pointer;
   border-bottom: 3px solid #000000;
-  box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 
 .logo-style {
@@ -56,9 +63,11 @@
 .bg-dark-custom {
   background-color: #7e0019;
 }
+
 .bg-dark-custom a {
   background-color: transparent;
 }
+
 .btn-custom-light {
   background-color: white;
   padding: 5px 10px;
@@ -68,22 +77,31 @@
   text-transform: uppercase;
   font-family: 'Bebas Neue', cursive;
 }
+
+.btn-custom-light a {
+  background-color: transparent;
+  color: white !important;
+}
+
 .btn-custom-light:hover {
   background-color: #7e0019;
   color: #ffffff;
   border: 2px solid #7e0019;
   transition: .5s;
 }
+
 .product-description-details {
   margin-top: 50px;
   font-family: 'Bebas Neue', cursive;
   color: #999999;
 }
+
 .product-description-details h3 {
   font-family: 'Bebas Neue', cursive;
   border-bottom: 2px solid #7e0019;
   color: #000000;
 }
+
 .filter-wrap {
   font-family: 'Bebas Neue', cursive;
   padding: 10px 20px;
@@ -91,19 +109,23 @@
   margin-bottom: 30px;
   text-align: left;
 }
+
 .filter-list {
   display: inline-block;
   margin: 10px;
 }
+
 .form-control {
   border-radius: 0 !important;
   min-width: 300px;
   font-family: 'Bebas Neue', cursive;
   border: 2px solid white;
 }
+
 .btn-light {
   border-radius: 0 !important;
 }
+
 .form-input-number {
   border-radius: 0 !important;
   width: 100px;
@@ -111,6 +133,7 @@
   font-family: 'Bebas Neue', cursive;
   border: 2px solid #7e0019;
 }
+
 .btn-transparent-light {
   background-color: white;
   padding: 3px 5px;
@@ -120,8 +143,30 @@
   text-transform: uppercase;
   font-family: 'Bebas Neue', cursive;
 }
+
 .btn-transparent-light:hover {
   color: #707070;
   transition: .5s;
+}
+
+.btn-custom-dark {
+  background-color: #7e0019;
+  color: #ffffff;
+  border: 2px solid #7e0019;
+  padding: 5px 7px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 0;
+}
+
+.btn-custom-dark:hover {
+  background-color: #ffffff;
+  color: #7e0019;
+  border: 2px solid #7e0019;
+  transition: .5s;
+  text-decoration: none;
+}
+
+.btn-custom-dark:hover a {
+  text-decoration: none;
 }
 
