@@ -37,7 +37,7 @@
       </ul>
       <form class="form-inline mt-2 mt-md-0">
         <%= form_with url: search_products_path, method: :get, local: true do |form| %>
-          <%= form.text_field :query, class: "form-control", data: { behavior: "autocomplete" } %>
+          <%= form.text_field :query, class: "form-control", data: {behavior: "autocomplete"} %>
           <%= button_tag type: 'submit', class: "btn btn-light" do %>
             <i class="fa fa-search" aria-hidden="true"></i>
           <% end %>
@@ -48,6 +48,11 @@
           <%= link_to (fa_icon "user-o", text: "Log out"), destroy_user_session_path, class: "btn btn-custom-light", method: :delete %>
         <% else %>
           <%= link_to (fa_icon "user-o", text: "Log in or Sign up"), new_user_session_path, class: "btn btn-custom-light", method: :get %>
+        <% end %>
+      </div>
+      <div class="form-inline ml-1">
+        <% if current_user %>
+          <%= link_to (fa_icon "opencart", text: "Cart"), order_path(id: current_order), class: "btn btn-custom-light", method: :get %>
         <% end %>
       </div>
     </div>

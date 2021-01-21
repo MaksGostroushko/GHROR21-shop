@@ -17,8 +17,7 @@
           <%= number_to_currency(@product.price, unit: "$", separator: ",", delimiter: " ", format: "%n %u") %>
         </div>
         <div>
-<!--          <button class='btn-custom-dark'><i class="fa fa-opencart"></i> Add to cart</button>-->
-          <%= link_to (fa_icon "opencart", text: "Add to cart"), nil, class: "btn-custom-dark" %>
+          <%= link_to (fa_icon "opencart", text: "Add to cart"), product_carts_path(@product), method: :post, class: "btn-custom-dark" %>
         </div>
         <div class="product-description-details">
           <h3>Desription:</h3>
