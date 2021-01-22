@@ -802,11 +802,9 @@ false Zulu
     <database id="5" parent="1" name="shop_development">
       <ObjectId>16425</ObjectId>
       <Owner>admin</Owner>
-      <IntrospectionStateNumber>540</IntrospectionStateNumber>
+      <IntrospectionStateNumber>769</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16442|16444|1
-sequence|table|16559|16561|1
-sequence|table|16574|16576|1
 sequence|table|16453|16455|1
 sequence|table|16465|16467|1
 sequence|table|16483|16485|1
@@ -814,6 +812,8 @@ sequence|table|16500|16502|1
 sequence|table|16512|16514|1
 sequence|table|16529|16531|1
 sequence|table|16544|16546|1
+sequence|table|16600|16602|1
+sequence|table|16615|16617|1
 </Relations>
     </database>
     <role id="6" parent="1" name="admin">
@@ -872,7 +872,7 @@ sequence|table|16544|16546|1
       <Comment>standard public schema</Comment>
       <StateNumber>286</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>541</IntrospectionStateNumber>
+      <IntrospectionStateNumber>770</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="19" parent="5" name="heap">
@@ -973,9 +973,9 @@ sequence|table|16544|16546|1
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="36" parent="18" name="carts_id_seq">
-      <ObjectId>16574</ObjectId>
+      <ObjectId>16615</ObjectId>
       <Owner>admin</Owner>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="37" parent="18" name="categories_id_seq">
@@ -985,9 +985,9 @@ sequence|table|16544|16546|1
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="38" parent="18" name="orders_id_seq">
-      <ObjectId>16559</ObjectId>
+      <ObjectId>16600</ObjectId>
       <Owner>admin</Owner>
-      <StateNumber>535</StateNumber>
+      <StateNumber>546</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="39" parent="18" name="products_id_seq">
@@ -1033,22 +1033,19 @@ sequence|table|16544|16546|1
       <StateNumber>510</StateNumber>
     </table>
     <table id="47" parent="18" name="carts">
-      <ObjectId>16576</ObjectId>
-      <Outdated>1</Outdated>
+      <ObjectId>16617</ObjectId>
       <Owner>admin</Owner>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
     </table>
     <table id="48" parent="18" name="categories">
       <ObjectId>16514</ObjectId>
-      <Outdated>1</Outdated>
       <Owner>admin</Owner>
-      <StateNumber>522</StateNumber>
+      <StateNumber>762</StateNumber>
     </table>
     <table id="49" parent="18" name="orders">
-      <ObjectId>16561</ObjectId>
-      <Outdated>1</Outdated>
+      <ObjectId>16602</ObjectId>
       <Owner>admin</Owner>
-      <StateNumber>535</StateNumber>
+      <StateNumber>546</StateNumber>
     </table>
     <table id="50" parent="18" name="products">
       <ObjectId>16444</ObjectId>
@@ -1486,7 +1483,7 @@ variation_digest</ColNames>
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
       <DefaultExpression>nextval(&apos;carts_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -1494,85 +1491,86 @@ variation_digest</ColNames>
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="115" parent="47" name="user_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="116" parent="47" name="product_id">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="117" parent="47" name="quantity">
       <Position>5</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
+      <DefaultExpression>1</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
     <column id="118" parent="47" name="created_at">
       <Position>6</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="119" parent="47" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>536</StateNumber>
+      <StateNumber>547</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="120" parent="47" name="carts_pkey">
-      <ObjectId>16580</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16622</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <index id="121" parent="47" name="index_carts_on_order_id">
-      <ObjectId>16597</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16639</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>order_id</ColNames>
     </index>
     <index id="122" parent="47" name="index_carts_on_user_id">
-      <ObjectId>16598</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16640</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>user_id</ColNames>
     </index>
     <index id="123" parent="47" name="index_carts_on_product_id">
-      <ObjectId>16599</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16641</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>product_id</ColNames>
     </index>
     <key id="124" parent="47" name="carts_pkey">
-      <ObjectId>16581</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16623</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>carts_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="125" parent="47" name="fk_rails_00582d5eae">
-      <ObjectId>16582</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16624</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>order_id</ColNames>
-      <RefTableId>16561</RefTableId>
+      <RefTableId>16602</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>orders</RefTableName>
       <RefKeyName>orders_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="126" parent="47" name="fk_rails_ea59a35211">
-      <ObjectId>16587</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16629</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>user_id</ColNames>
       <RefTableId>16531</RefTableId>
       <RefColPositions>1</RefColPositions>
@@ -1581,8 +1579,8 @@ variation_digest</ColNames>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="127" parent="47" name="fk_rails_916f2a1419">
-      <ObjectId>16592</ObjectId>
-      <StateNumber>536</StateNumber>
+      <ObjectId>16634</ObjectId>
+      <StateNumber>547</StateNumber>
       <ColNames>product_id</ColNames>
       <RefTableId>16444</RefTableId>
       <RefColPositions>1</RefColPositions>
@@ -1624,78 +1622,89 @@ variation_digest</ColNames>
       <StateNumber>519</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="133" parent="48" name="categories_pkey">
+    <column id="133" parent="48" name="parent_id">
+      <Position>7</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>762</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="134" parent="48" name="categories_pkey">
       <ObjectId>16521</ObjectId>
       <StateNumber>519</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="134" parent="48" name="categories_pkey">
+    <index id="135" parent="48" name="index_categories_on_parent_id">
+      <ObjectId>16643</ObjectId>
+      <StateNumber>762</StateNumber>
+      <ColNames>parent_id</ColNames>
+    </index>
+    <key id="136" parent="48" name="categories_pkey">
       <ObjectId>16522</ObjectId>
       <StateNumber>519</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>categories_pkey</UnderlyingIndexName>
     </key>
-    <column id="135" parent="49" name="id">
+    <column id="137" parent="49" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>535</StateNumber>
+      <StateNumber>546</StateNumber>
       <DefaultExpression>nextval(&apos;orders_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="136" parent="49" name="user_id">
+    <column id="138" parent="49" name="user_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>535</StateNumber>
+      <StateNumber>546</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="137" parent="49" name="status">
+    <column id="139" parent="49" name="status">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>535</StateNumber>
+      <StateNumber>546</StateNumber>
       <DefaultExpression>0</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="138" parent="49" name="created_at">
+    <column id="140" parent="49" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>535</StateNumber>
+      <StateNumber>546</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="139" parent="49" name="updated_at">
+    <column id="141" parent="49" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>535</StateNumber>
+      <StateNumber>546</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="140" parent="49" name="orders_pkey">
-      <ObjectId>16566</ObjectId>
-      <StateNumber>535</StateNumber>
+    <index id="142" parent="49" name="orders_pkey">
+      <ObjectId>16607</ObjectId>
+      <StateNumber>546</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <index id="141" parent="49" name="index_orders_on_user_id">
-      <ObjectId>16573</ObjectId>
-      <StateNumber>535</StateNumber>
+    <index id="143" parent="49" name="index_orders_on_user_id">
+      <ObjectId>16614</ObjectId>
+      <StateNumber>546</StateNumber>
       <ColNames>user_id</ColNames>
     </index>
-    <key id="142" parent="49" name="orders_pkey">
-      <ObjectId>16567</ObjectId>
-      <StateNumber>535</StateNumber>
+    <key id="144" parent="49" name="orders_pkey">
+      <ObjectId>16608</ObjectId>
+      <StateNumber>546</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>orders_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="143" parent="49" name="fk_rails_f868b47f6a">
-      <ObjectId>16568</ObjectId>
-      <StateNumber>535</StateNumber>
+    <foreign-key id="145" parent="49" name="fk_rails_f868b47f6a">
+      <ObjectId>16609</ObjectId>
+      <StateNumber>546</StateNumber>
       <ColNames>user_id</ColNames>
       <RefTableId>16531</RefTableId>
       <RefColPositions>1</RefColPositions>
@@ -1703,7 +1712,7 @@ variation_digest</ColNames>
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="144" parent="50" name="id">
+    <column id="146" parent="50" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -1711,70 +1720,70 @@ variation_digest</ColNames>
       <DefaultExpression>nextval(&apos;products_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="145" parent="50" name="name">
+    <column id="147" parent="50" name="name">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <StateNumber>511</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="146" parent="50" name="description">
+    <column id="148" parent="50" name="description">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <StateNumber>511</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="147" parent="50" name="price">
+    <column id="149" parent="50" name="price">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>511</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="148" parent="50" name="image">
+    <column id="150" parent="50" name="image">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
       <StateNumber>511</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="149" parent="50" name="created_at">
+    <column id="151" parent="50" name="created_at">
       <Position>6</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>511</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="150" parent="50" name="updated_at">
+    <column id="152" parent="50" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>511</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="151" parent="50" name="category_id">
+    <column id="153" parent="50" name="category_id">
       <Position>8</Position>
       <DataType>bigint|0s</DataType>
       <StateNumber>522</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="152" parent="50" name="products_pkey">
+    <index id="154" parent="50" name="products_pkey">
       <ObjectId>16451</ObjectId>
       <StateNumber>511</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <index id="153" parent="50" name="index_products_on_category_id">
+    <index id="155" parent="50" name="index_products_on_category_id">
       <ObjectId>16523</ObjectId>
       <StateNumber>522</StateNumber>
       <ColNames>category_id</ColNames>
     </index>
-    <key id="154" parent="50" name="products_pkey">
+    <key id="156" parent="50" name="products_pkey">
       <ObjectId>16452</ObjectId>
       <StateNumber>511</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>products_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="155" parent="50" name="fk_rails_fb915499a4">
+    <foreign-key id="157" parent="50" name="fk_rails_fb915499a4">
       <ObjectId>16524</ObjectId>
       <StateNumber>522</StateNumber>
       <ColNames>category_id</ColNames>
@@ -1784,28 +1793,28 @@ variation_digest</ColNames>
       <RefKeyName>categories_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="156" parent="51" name="version">
+    <column id="158" parent="51" name="version">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>509</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="157" parent="51" name="schema_migrations_pkey">
+    <index id="159" parent="51" name="schema_migrations_pkey">
       <ObjectId>16432</ObjectId>
       <StateNumber>509</StateNumber>
       <ColNames>version</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="158" parent="51" name="schema_migrations_pkey">
+    <key id="160" parent="51" name="schema_migrations_pkey">
       <ObjectId>16433</ObjectId>
       <StateNumber>509</StateNumber>
       <ColNames>version</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
     </key>
-    <column id="159" parent="52" name="id">
+    <column id="161" parent="52" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -1813,7 +1822,7 @@ variation_digest</ColNames>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="160" parent="52" name="email">
+    <column id="162" parent="52" name="email">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
@@ -1821,7 +1830,7 @@ variation_digest</ColNames>
       <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
-    <column id="161" parent="52" name="encrypted_password">
+    <column id="163" parent="52" name="encrypted_password">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
@@ -1829,58 +1838,58 @@ variation_digest</ColNames>
       <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
-    <column id="162" parent="52" name="reset_password_token">
+    <column id="164" parent="52" name="reset_password_token">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
       <StateNumber>531</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="163" parent="52" name="reset_password_sent_at">
+    <column id="165" parent="52" name="reset_password_sent_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>531</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="164" parent="52" name="remember_created_at">
+    <column id="166" parent="52" name="remember_created_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>531</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="165" parent="52" name="created_at">
+    <column id="167" parent="52" name="created_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>531</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="166" parent="52" name="updated_at">
+    <column id="168" parent="52" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>531</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="167" parent="52" name="users_pkey">
+    <index id="169" parent="52" name="users_pkey">
       <ObjectId>16540</ObjectId>
       <StateNumber>531</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <index id="168" parent="52" name="index_users_on_email">
+    <index id="170" parent="52" name="index_users_on_email">
       <ObjectId>16542</ObjectId>
       <StateNumber>531</StateNumber>
       <ColNames>email</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="169" parent="52" name="index_users_on_reset_password_token">
+    <index id="171" parent="52" name="index_users_on_reset_password_token">
       <ObjectId>16543</ObjectId>
       <StateNumber>531</StateNumber>
       <ColNames>reset_password_token</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="170" parent="52" name="users_pkey">
+    <key id="172" parent="52" name="users_pkey">
       <ObjectId>16541</ObjectId>
       <StateNumber>531</StateNumber>
       <ColNames>id</ColNames>
