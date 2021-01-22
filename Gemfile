@@ -66,4 +66,5 @@ gem 'seed_dump'
 gem 'activeadmin'
 gem 'devise'
 gem "aws-sdk-s3", require: false
+gem 'dotenv-rails'
 
