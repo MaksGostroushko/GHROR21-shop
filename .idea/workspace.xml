@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="95e0fe08-b1e3-41b3-bea3-09d9282da260" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +182,7 @@
       <workItem from="1610644766628" duration="889000" />
       <workItem from="1610697516993" duration="15240000" />
       <workItem from="1610971322363" duration="31978000" />
-      <workItem from="1611167127075" duration="39633000" />
+      <workItem from="1611167127075" duration="42466000" />
     </task>
     <servers />
   </component>
@@ -249,10 +250,10 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state width="1638" height="230" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1611320890416" />
-    <state x="341" y="138" key="SettingsEditor" timestamp="1611167156932">
+    <state x="341" y="138" key="SettingsEditor" timestamp="1611324166739">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="341" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1611167156932" />
+    <state x="341" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1611324166739" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1611320645983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
