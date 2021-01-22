@@ -1,6 +1,3 @@
-User.create!([
-  {email: "admin@rails.shop", encrypted_password: "$2a$12$ktIwfpb09inhbiloMYXtrOgG0xBHOVCf/FlC.bf257I.5cHDraQvS", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil}
-])
 Category.create!([
   {name: "Men", image: nil, parent_id: nil},
   {name: "Women", image: nil, parent_id: nil},
