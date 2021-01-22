@@ -20,6 +20,14 @@
   font-family: 'Anton', sans-serif;
   font-size: 22px;
 }
+.product-title a {
+ color: black;
+}
+.product-title a:hover {
+  color: #7e0019;
+  background-color: white;
+  text-decoration: none;
+}
 
 .product-title-detail {
   font-family: 'Anton', sans-serif;

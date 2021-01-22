@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-sm-12 col-lg-6">
         <div>
-          <%= image_tag(@product.image, width: "400", class: "img-fluid")%>
+          <%= image_tag @product.image.variant(resize_to_limit: [400, 400]) if @product.image.present? %>
         </div>
       </div>
       <div class="col-sm-12 col-lg-6">

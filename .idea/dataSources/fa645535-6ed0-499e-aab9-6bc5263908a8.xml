@@ -1040,6 +1040,7 @@ sequence|table|16544|16546|1
     </table>
     <table id="48" parent="18" name="categories">
       <ObjectId>16514</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>admin</Owner>
       <StateNumber>522</StateNumber>
     </table>

@@ -1,6 +1,6 @@
 <section class="category-wrap">
     <div class="row no-gutters">
-      <% Category.all.each do |category| %>
+      <% Category.where(parent_id: nil).each do |category| %>
         <div class="col-sm-12 col-lg-4">
           <div class="categories-list">
             <p>all for:</p>

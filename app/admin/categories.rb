@@ -4,22 +4,22 @@ ActiveAdmin.register Category do
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
   # Uncomment all parameters which should be permitted for assignment
-
-  permit_params :name, :image
-
+  #
+  permit_params :name, :image, :parent_id
+  #
   # or
   #
   # permit_params do
-  #   permitted = [:name, :image]
+  #   permitted = [:name, :image, :parent_id]
   #   permitted << :other if params[:action] == 'create' && current_user.admin?
   #   permitted
   # end
-  show do
-      attributes_table do
-        row :name
-        row :created_at
-        row :image
-      end
+  form do |f|
+    f.inputs do
+      f.input :name
+      f.input :image, as: :file
+      f.input :parent_id
     end
-  
+    f.actions
+  end
 end
