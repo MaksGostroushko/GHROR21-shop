@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+</head>
+<body style=" background-color: #f5f5f5; color: black;" >
+<div style="max-width: 600px; margin: 0 auto; padding: 20px 0">
+  <div style="padding: 20px 10px; background-color: #7e0019">
+    <div style="font-family: 'Mr Dafoe', cursive; font-size: 30px; color: white">RailsShop</div>
+  </div>
+  <div style="padding: 20px 10px; background-color: white">
+    <% @order.carts.each do |item| %>
+      <div style="border-bottom: 1px solid #b8b8b8">
+<!--        <div style="display: inline-block; max-width: 30px; padding: 5px"><%#= image_tag(item.product.image, width: "30", class: "img-fluid")%></div>-->
+        <div style="display: inline-block; max-width: 200px; padding: 5px"><%= item.product.name %></div>
+        <div style="display: inline-block; padding: 5px"><%= number_to_currency(item.total_price, unit: "$", separator: ",", delimiter: " ", format: "%n %u") %></div>
+      </div>
+    <% end %>
+  </div>
+  <div style="padding: 20px 10px; background-color: white">
+    <p style="text-align: center">Dear, <%= @user.email %></p>
+    <p style="text-align: center">Thank you for your choice</p>
+  </div>
+</div>
+</body>
+</html>

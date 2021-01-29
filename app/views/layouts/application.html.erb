@@ -45,14 +45,14 @@
       </form>
       <div class="form-inline ml-5">
         <% if current_user %>
-          <%= link_to (fa_icon "user-o", text: "Log out"), destroy_user_session_path, class: "btn btn-custom-light", method: :delete %>
+          <%= link_to (fa_icon "user-o", text: "Log out"), destroy_user_session_path, class: "btn-custom-light", method: :delete %>
         <% else %>
-          <%= link_to (fa_icon "user-o", text: "Log in or Sign up"), new_user_session_path, class: "btn btn-custom-light", method: :get %>
+          <%= link_to (fa_icon "user-o", text: "Log in or Sign up"), new_user_session_path, class: "btn-custom-light", method: :get %>
         <% end %>
       </div>
       <div class="form-inline ml-1">
         <% if current_user %>
-          <%= link_to (fa_icon "opencart", text: "Cart"), order_path(id: current_order), class: "btn btn-custom-light", method: :get %>
+          <%= link_to (fa_icon "opencart", text: "Cart"), order_path(id: current_order), class: "btn-custom-light", method: :get %>
         <% end %>
       </div>
     </div>

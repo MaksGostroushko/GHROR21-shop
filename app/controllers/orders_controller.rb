@@ -3,6 +3,8 @@ class OrdersController < ApplicationController
     @items = current_order.carts
   end
   def update
-    render template: "orders/order_checkout"
+    OrderMailer.with(user: current_user, order: current_order).complete_order.deliver_now
+    current_order.update(status: 'ordered')
+    render template: "orders/update"
   end
 end

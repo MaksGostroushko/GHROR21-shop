@@ -14,13 +14,13 @@
   <div class="filter-wrap">
     <div class="filter-list">
       Sort by price:
-      <%= link_to (fa_icon "sort-amount-asc"), category_path(sort: 'lowPrice'), class: 'btn-custom-light' %>
-      <%= link_to (fa_icon "sort-amount-desc"), category_path(sort: 'highPrice'), class: 'btn-custom-light' %>
+      <%= link_to (fa_icon "sort-amount-asc"), category_path(sort: 'lowPrice'), class: 'btn-custom-dark' %>
+      <%= link_to (fa_icon "sort-amount-desc"), category_path(sort: 'highPrice'), class: 'btn-custom-dark' %>
     </div>
     <div class="filter-list">
       Sort by name:
-      <%= link_to (fa_icon "sort-alpha-asc"), category_path(sort: 'alphabetAsc'), class: 'btn-custom-light' %>
-      <%= link_to (fa_icon "sort-alpha-desc"), category_path(sort: 'alphabetDesc'), class: 'btn-custom-light' %>
+      <%= link_to (fa_icon "sort-alpha-asc"), category_path(sort: 'alphabetAsc'), class: 'btn-custom-dark' %>
+      <%= link_to (fa_icon "sort-alpha-desc"), category_path(sort: 'alphabetDesc'), class: 'btn-custom-dark' %>
     </div>
     <div class="filter-list">
       <%= form_with url: products_path, method: :get, local: true do |form| %>
@@ -39,6 +39,7 @@
       <% @products.each do |product| %>
         <div class="col-sm-6 col-lg-4">
           <div class="products-list">
+            <div class="product-rating"><i class="fa fa-star-half-o" aria-hidden="true"></i> <%= product.rating %></div>
             <div>
               <%= link_to image_tag(product.image, width: "200", class: "img-fluid"), product_path(product) %>
             </div>

@@ -3,6 +3,7 @@
       <% @products.each do |product| %>
         <div class="col-sm-6 col-lg-4">
           <div class="products-list">
+            <div class="product-rating"><i class="fa fa-star-half-o" aria-hidden="true"></i> <%= product.rating %></div>
             <div>
               <%= link_to image_tag(product.image, width: "200", class: "img-fluid"), product_path(product) if product.image.present? %>
             </div>

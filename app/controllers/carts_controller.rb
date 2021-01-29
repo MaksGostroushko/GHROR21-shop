@@ -1,4 +1,5 @@
 class CartsController < ApplicationController
+  before_action :set_cart, only: [:add_quantity, :remove_quantity, :destroy]
 
   def create
     cart = current_order.carts.find_by(product_id: params[:product_id])
@@ -12,27 +13,27 @@ class CartsController < ApplicationController
   end
 
   def add_quantity
-    cart = Cart.find(params[:id])
-    cart.update(quantity: cart.quantity + 1)
+    @cart.update(quantity: @cart.quantity + 1)
     redirect_to order_path(current_order)
   end
 
   def remove_quantity
-    cart = Cart.find(params[:id])
-    cart.update(quantity: cart.quantity - 1)
+    @cart.update(quantity: @cart.quantity - 1)
     redirect_to order_path(current_order)
   end
 
   def update
-    Order.find_by(user: current_user, status: :ordered)
-    Order.create(user: current_user, status: :in_progress)
-    redirect_to root_path
   end
 
   def destroy
-    cart = Cart.find(params[:id])
-    cart.destroy
+    @cart.destroy
     redirect_to order_path(current_order)
+  end
+
+  private
+
+  def set_cart
+    @cart = Cart.find(params[:id])
   end
 
 end

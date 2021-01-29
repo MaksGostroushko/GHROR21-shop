@@ -15,10 +15,20 @@
   border: 1px solid #ffffff;
   border-bottom: 3px solid #ffffff;
 }
+.product-img {
+  max-width: 350px;
+  text-align: center;
+  margin: 0 auto;
+}
+.product-img img {
+  width: 100%;
+}
+
 
 .product-title {
   font-family: 'Anton', sans-serif;
   font-size: 22px;
+  position: relative;
 }
 .product-title a {
  color: black;
@@ -27,6 +37,14 @@
   color: #7e0019;
   background-color: white;
   text-decoration: none;
+}
+
+.product-rating {
+  text-align: right;
+}
+
+.product-rating i {
+  color: #ff8400;
 }
 
 .product-title-detail {
@@ -79,10 +97,11 @@
 .btn-custom-light {
   background-color: white;
   padding: 5px 10px;
-  color: #7e0019;
+  color: #ffffff;
   border-radius: 0;
   border: 2px solid #7e0019;
   text-transform: uppercase;
+  font-size: 18px;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -96,12 +115,13 @@
   color: #ffffff;
   border: 2px solid #7e0019;
   transition: .5s;
+  text-decoration: none;
 }
 
 .product-description-details {
-  margin-top: 50px;
   font-family: 'Bebas Neue', cursive;
   color: #999999;
+  position: relative;
 }
 
 .product-description-details h3 {
@@ -143,29 +163,33 @@
 }
 
 .btn-transparent-light {
-  background-color: white;
+  background-color: transparent;
   padding: 3px 5px;
-  color: #7e0019;
+  color: #7e0019 !important;
   border-radius: 0;
   border: none;
   text-transform: uppercase;
   font-family: 'Bebas Neue', cursive;
 }
-
 .btn-transparent-light:hover {
-  color: #707070;
-  transition: .5s;
   background-color: transparent;
 }
-.btn-transparent-light a:visited {
-  color: #7e0019;
+
+.btn-transparent-light i:hover {
+  color: #707070;
+  transition: .1s;
+  background-color: transparent !important;
+}
+.btn-transparent-light a:hover {
+  color: #7a7a7a;
+  background-color: transparent !important;
 }
 
 .btn-custom-dark {
   background-color: #7e0019;
   color: #ffffff;
   border: 2px solid #7e0019;
-  padding: 5px 7px;
+  padding: 3px 10px;
   font-family: 'Bebas Neue', cursive;
   border-radius: 0;
 }
@@ -180,5 +204,43 @@
 
 .btn-custom-dark:hover a {
   text-decoration: none;
+}
+.navbar-nav {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+}
+.comment-body {
+  padding: 20px 10px;
+  position: relative;
+  color: black;
+  background-color: #dedede;
+  font-size: 16px;
+  font-family: 'Bebas Neue', cursive;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+}
+.edit-buttons {
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+}
+.review-info {
+  position: relative;
+}
+.review-rating {
+  position: absolute;
+  right: 5px;
+  top: 0
+}
+.review-rating i {
+  color: #ff8400;
+}
+
+.product-review-create {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 

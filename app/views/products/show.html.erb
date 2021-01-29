@@ -2,11 +2,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-lg-6">
-        <div>
-          <%= image_tag @product.image.variant(resize_to_limit: [400, 400]) if @product.image.present? %>
+        <div class="product-img">
+          <%= image_tag @product.image if @product.image.present? %>
         </div>
       </div>
       <div class="col-sm-12 col-lg-6">
+        <div class="product-rating"><i class="fa fa-star-half-o" aria-hidden="true"></i> <%= @product.rating %>
+          <i class="fa fa-comment-o" aria-hidden="true"></i> <%= @product.comment_count %>
+        </div>
         <div class="product-title-detail">
           <%= @product.name %>
         </div>
@@ -19,10 +22,38 @@
         <div>
           <%= link_to (fa_icon "opencart", text: "Add to cart"), product_carts_path(@product), method: :post, class: "btn-custom-dark" %>
         </div>
-        <div class="product-description-details">
+        <div class="product-description-details mt-5">
           <h3>Desription:</h3>
-          <%= @product.description %> <%= "$" %>
+          <%= @product.description %>
         </div>
+      </div>
+      <div class="col-sm-12 col-lg-6">
+        <div class="product-description-details mt-5">
+          <h3>Reviews</h3>
+          <div class="product-review-create">
+            <%= link_to (fa_icon "comment-o", text: "Create review"), new_comment_path(user_id: current_user, product_id: @product.id), method: :get, class: "btn-custom-dark" %>
+          </div>
+          <% @product.comments.each do |comment| %>
+            <div class="reviews-list">
+              <div class="review-info">
+                <%= comment.user.email %>
+                <p class="review-rating"><i class="fa fa-star-o" aria-hidden="true"></i> <%= comment.rating %></p>
+              </div>
+              <p class="comment-body"><%= comment.body %>
+              <div class="edit-buttons">
+                <% if current_user == comment.user %>
+                  <%= link_to (fa_icon "pencil"), edit_comment_path(comment), class: "btn-transparent-light" %>
+                  <%= link_to (fa_icon "trash-o"), comment_path(comment), method: :delete, class: "btn-transparent-light",
+                              data: {confirm: 'Confirm delete your review?'} %>
+                <% end %>
+              </div>
+              </p>
+            </div>
+          <% end %>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6">
+
       </div>
     </div>
     <p id="notice"><%= notice %></p>

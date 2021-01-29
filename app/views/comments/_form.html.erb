@@ -1,0 +1,23 @@
+<div class="review-input-form">
+  <%= form_with model: (@comment) do |comment| %>
+    <% if @comment.errors.any? %>
+      <% @comment.errors.full_messages.each do |message| %>
+        <h4 class="alert-danger"><%= message %></h4>
+      <% end %>
+    <% end %>
+    <div class="review-input-form">
+      <%= comment.text_area :body, rows: 3, placeholder: 'Input review' %>
+    </div>
+    <div class="review-rating-form">
+      <%= comment.select :rating, [*1..5] %>
+    </div>
+
+    <%= comment.hidden_field :user_id %>
+    <%= comment.hidden_field :product_id %>
+    <div class="review-submit">
+      <%= button_tag type: 'submit', class: "btn-transparent-light" do %>
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      <% end %>
+    </div>
+  <% end %>
+</div>

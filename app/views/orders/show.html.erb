@@ -18,7 +18,7 @@
               </div>
               <div class="cart-product-delete">
                 <%= link_to (fa_icon "trash-o"), product_cart_path(item.product, item), class: "btn btn-transparent-light", method: :delete,
-                            data: {confirm: 'Are you sure you want to delete the item?'}%>
+                            data: {confirm: 'Confirm delete the item?'}%>
               </div>
             </div>
           <% end %>
@@ -28,7 +28,7 @@
       <div class="cart-product-wrap">
         <div class="cart-total-items pb-2 mb-2">Total items: <%= @items.collect(&:quantity).sum %> </div>
         <h3>Total price: <%= number_to_currency(@items.collect{ |a| a.total_price }.sum, unit: "$", separator: ",", delimiter: " ", format: "%n %u") %></h3>
-        <%= link_to "Checkout", order_path(page: 'order_checkout'), class: "btn-custom-dark", method: :patch %>
+        <%= link_to "Checkout", order_path, class: "btn-custom-dark", method: :patch%>
       </div>
     </div>
   </div>

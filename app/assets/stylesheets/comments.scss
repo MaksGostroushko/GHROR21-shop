@@ -1,0 +1,35 @@
+// Place all the styles related to the Comments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.review-input-form {
+  position: relative;
+}
+
+.review-input-form textarea {
+  border: none;
+  border-bottom: 2px solid #bfbfbf;
+  width: 100%;
+  padding: 2px 35px;
+}
+.review-input-form textarea:focus {
+  outline: none;
+}
+
+.review-rating-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.review-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.review-rating-form select {
+  border: none;
+  padding: 2px;
+  color: white;
+  background-color: #7e0019;
+}
