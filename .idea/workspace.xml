@@ -20,36 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e0fe08-b1e3-41b3-bea3-09d9282da260" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa645535-6ed0-499e-aab9-6bc5263908a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fa645535-6ed0-499e-aab9-6bc5263908a8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa645535-6ed0-499e-aab9-6bc5263908a8/storage_v2/_src_/database/shop_development.chWt6w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fa645535-6ed0-499e-aab9-6bc5263908a8/storage_v2/_src_/database/shop_development.chWt6w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/devise.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/devise.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/carts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/carts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/product.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/order_checkout.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/update.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/orders/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/products/_products.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/_products.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.env" beforeDir="false" afterPath="$PROJECT_DIR$/key.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +184,7 @@
       <workItem from="1611388894267" duration="385000" />
       <workItem from="1611435911172" duration="883000" />
       <workItem from="1611584500787" duration="49086000" />
-      <workItem from="1611906680543" duration="7244000" />
+      <workItem from="1611906680543" duration="8325000" />
     </task>
     <servers />
   </component>
@@ -249,38 +220,38 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.952@0.23.1680.952" timestamp="1611602697144" />
-    <state width="1638" height="233" key="GridCell.Tab.0.bottom" timestamp="1611920421482">
+    <state width="1638" height="233" key="GridCell.Tab.0.bottom" timestamp="1611920772256">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1611920421482" />
-    <state width="1638" height="233" key="GridCell.Tab.0.center" timestamp="1611920421481">
+    <state width="1638" height="233" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1611920772256" />
+    <state width="1638" height="233" key="GridCell.Tab.0.center" timestamp="1611920772255">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1611920421481" />
-    <state width="1638" height="233" key="GridCell.Tab.0.left" timestamp="1611920421481">
+    <state width="1638" height="233" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1611920772255" />
+    <state width="1638" height="233" key="GridCell.Tab.0.left" timestamp="1611920772255">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1611920421481" />
-    <state width="1638" height="233" key="GridCell.Tab.0.right" timestamp="1611920421482">
+    <state width="1638" height="233" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1611920772255" />
+    <state width="1638" height="233" key="GridCell.Tab.0.right" timestamp="1611920772255">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1611920421482" />
-    <state width="1638" height="233" key="GridCell.Tab.1.bottom" timestamp="1611920421484">
+    <state width="1638" height="233" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1611920772255" />
+    <state width="1638" height="233" key="GridCell.Tab.1.bottom" timestamp="1611920772257">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1611920421484" />
-    <state width="1638" height="233" key="GridCell.Tab.1.center" timestamp="1611920421483">
+    <state width="1638" height="233" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1611920772257" />
+    <state width="1638" height="233" key="GridCell.Tab.1.center" timestamp="1611920772256">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1611920421483" />
-    <state width="1638" height="233" key="GridCell.Tab.1.left" timestamp="1611920421483">
+    <state width="1638" height="233" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1611920772256" />
+    <state width="1638" height="233" key="GridCell.Tab.1.left" timestamp="1611920772256">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1611920421483" />
-    <state width="1638" height="233" key="GridCell.Tab.1.right" timestamp="1611920421483">
+    <state width="1638" height="233" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1611920772256" />
+    <state width="1638" height="233" key="GridCell.Tab.1.right" timestamp="1611920772256">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1611920421483" />
+    <state width="1638" height="233" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1611920772256" />
     <state x="341" y="138" key="SettingsEditor" timestamp="1611906697116">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
@@ -295,6 +266,6 @@
     <state x="505" y="293" width="670" height="676" key="search.everywhere.popup/0.23.1680.952@0.23.1680.952" timestamp="1611670518746" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1611920421443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
+    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1611920645002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
   </component>
 </project>

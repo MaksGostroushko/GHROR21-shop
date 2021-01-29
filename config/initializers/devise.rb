@@ -311,5 +311,6 @@ Devise.setup do |config|
   # Rails.application.config.middleware.use OmniAuth::Builder do
   #   provider :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET']
   # end
-  config.omniauth :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: 'user,public_repo'
+  # config.omniauth :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: 'user,public_repo'
+  config.omniauth :github, '755734a5c2fe3fffb2cf', 'd62108580f56936217a1b8cf73b041ac67fc5a29', scope: 'user,public_repo'
 end
