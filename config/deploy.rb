@@ -1,6 +1,6 @@
 lock "~> 3.15.0"
 
-set :repo_url, "git@github.com:yarovidze/GHROR21-shop.git"
+set :repo_url, "https://github.com/yarovidze/GHROR21-shop.git"
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, "deployer"
