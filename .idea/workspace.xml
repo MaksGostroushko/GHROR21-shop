@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95e0fe08-b1e3-41b3-bea3-09d9282da260" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,7 @@
       <workItem from="1611584500787" duration="49086000" />
       <workItem from="1611906680543" duration="9021000" />
       <workItem from="1612277598570" duration="926000" />
-      <workItem from="1612355184107" duration="8730000" />
+      <workItem from="1612355184107" duration="9442000" />
     </task>
     <servers />
   </component>
@@ -259,10 +258,10 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="341" y="138" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1612355214300" />
-    <state x="538" y="268" width="617" height="490" key="find.popup" timestamp="1611844472304">
+    <state x="538" y="268" width="617" height="490" key="find.popup" timestamp="1612390595129">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="538" y="268" width="617" height="490" key="find.popup/0.23.1680.952@0.23.1680.952" timestamp="1611844472304" />
+    <state x="538" y="268" width="617" height="490" key="find.popup/0.23.1680.952@0.23.1680.952" timestamp="1612390595129" />
     <state x="505" y="293" width="670" height="676" key="search.everywhere.popup" timestamp="1611670518746">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
