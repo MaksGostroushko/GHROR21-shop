@@ -23,12 +23,6 @@ Product.create!([
   {name: "New baby rompers Newborn", description: "2018 New baby rompers Newborn Infant Baby Boy Girl Summer clothes Cute Cartoon Printed Romper Jumpsuit Climbing Clothes #Nxt", price: 20, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/7260/65565/2018-New-baby-rompers-Newborn-Infant-Baby-Boy-Girl-Summer-clothes-Cute-Cartoon-Printed-Romper-Jumpsuit__49415.1587701989.jpg?c=2", category_id: 3},
   {name: "Duck Design Baby Baseball", description: "2018 New Cute Duck Design Baby Baseball Hat Cap For Boys Girls Sun Hat Kid Hat Children Cap Snapback Cap Outdoor Sports", price: 25, image: "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/608x608/products/4232/32483/2018-New-Cute-Duck-Design-Baby-Baseball-Hat-Cap-For-Boys-Girls-Sun-Hat-Kid-Hat__20012.1592994375.jpg?c=2", category_id: 3}
 ])
-Order.create!([
-  {user_id: 1, status: "in_progress"}
-])
-Cart.create!([
-  {order_id: 1, user_id: 1, product_id: 6, quantity: 1}
-])
 ActiveStorage::Blob.create!([
   {key: "dhjd1gpag3iu0c1vb3ddx9btfkg5", filename: "2018-New-Cute-Duck-Design-Baby-Baseball-Hat-Cap-For-Boys-Girls-Sun-Hat-Kid-Hat__20012.1592994375.webp", content_type: "image/webp", metadata: {"identified"=>true, "width"=>608, "height"=>608, "analyzed"=>true}, service_name: "local", byte_size: 40928, checksum: "CHkY/WGX+0nrB2+EXgxOOQ=="},
   {key: "z09shln3mlrcsyimqz1s9wk2esgn", filename: "2018-Fashion-New-Male-Shirt-Long-Sleeve-Mens-Clothes-Oblique-Button-Dress-Shirts-Mandarin-Collar-Men__22943.1580302013.webp", content_type: "image/webp", metadata: {"identified"=>true, "width"=>1280, "height"=>1280, "analyzed"=>true}, service_name: "local", byte_size: 111234, checksum: "JUFPhQdWzGPRqyHMXaEgIg=="},
@@ -116,4 +110,3 @@ ActiveStorage::Attachment.create!([
   {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 21, blob_id: 32},
   {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 22, blob_id: 33}
 ])
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
