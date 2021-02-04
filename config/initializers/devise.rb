@@ -312,5 +312,5 @@ Devise.setup do |config|
   #   provider :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET']
   # end
   # config.omniauth :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: 'user,public_repo'
-  config.omniauth :github, '755734a5c2fe3fffb2cf', 'd62108580f56936217a1b8cf73b041ac67fc5a29', scope: 'user,public_repo'
+  config.omniauth :github, 'af81ada4e4c17c406cc9', 'b7686744e0d808d166f390d3ebcabf8bbd20583c', scope: 'user,public_repo'
 end
