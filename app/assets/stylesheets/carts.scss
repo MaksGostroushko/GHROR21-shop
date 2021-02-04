@@ -37,3 +37,19 @@
 .cart-total-items {
   border-bottom: 1px dotted black;
 }
+.form-inline {
+  position: relative;
+}
+.items-count {
+  color: #7e0019;
+  position: absolute;
+  right: 0px;
+  top: -2px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0;
+  font-size: 12px;
+  line-height: 0.7;
+  font-weight: 700;
+}
