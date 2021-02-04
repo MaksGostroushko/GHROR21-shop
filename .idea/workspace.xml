@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95e0fe08-b1e3-41b3-bea3-09d9282da260" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,7 @@
       <workItem from="1611584500787" duration="49086000" />
       <workItem from="1611906680543" duration="9021000" />
       <workItem from="1612277598570" duration="926000" />
-      <workItem from="1612355184107" duration="14227000" />
+      <workItem from="1612355184107" duration="14919000" />
     </task>
     <servers />
   </component>
@@ -223,38 +222,38 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="578" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.952@0.23.1680.952" timestamp="1611602697144" />
-    <state width="1638" height="233" key="GridCell.Tab.0.bottom" timestamp="1612428788179">
+    <state width="1638" height="233" key="GridCell.Tab.0.bottom" timestamp="1612438500424">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1612428788179" />
-    <state width="1638" height="233" key="GridCell.Tab.0.center" timestamp="1612428788178">
+    <state width="1638" height="233" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1612438500424" />
+    <state width="1638" height="233" key="GridCell.Tab.0.center" timestamp="1612438500424">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1612428788178" />
-    <state width="1638" height="233" key="GridCell.Tab.0.left" timestamp="1612428788177">
+    <state width="1638" height="233" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1612438500424" />
+    <state width="1638" height="233" key="GridCell.Tab.0.left" timestamp="1612438500423">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1612428788177" />
-    <state width="1638" height="233" key="GridCell.Tab.0.right" timestamp="1612428788178">
+    <state width="1638" height="233" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1612438500423" />
+    <state width="1638" height="233" key="GridCell.Tab.0.right" timestamp="1612438500424">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1612428788178" />
-    <state width="1638" height="233" key="GridCell.Tab.1.bottom" timestamp="1612428788181">
+    <state width="1638" height="233" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1612438500424" />
+    <state width="1638" height="233" key="GridCell.Tab.1.bottom" timestamp="1612438500425">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1612428788181" />
-    <state width="1638" height="233" key="GridCell.Tab.1.center" timestamp="1612428788180">
+    <state width="1638" height="233" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1612438500425" />
+    <state width="1638" height="233" key="GridCell.Tab.1.center" timestamp="1612438500425">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1612428788180" />
-    <state width="1638" height="233" key="GridCell.Tab.1.left" timestamp="1612428788180">
+    <state width="1638" height="233" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1612438500425" />
+    <state width="1638" height="233" key="GridCell.Tab.1.left" timestamp="1612438500424">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1612428788180" />
-    <state width="1638" height="233" key="GridCell.Tab.1.right" timestamp="1612428788180">
+    <state width="1638" height="233" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1612438500424" />
+    <state width="1638" height="233" key="GridCell.Tab.1.right" timestamp="1612438500425">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1638" height="233" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1612428788180" />
+    <state width="1638" height="233" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1612438500425" />
     <state x="341" y="138" key="SettingsEditor" timestamp="1612355214300">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
@@ -269,6 +268,6 @@
     <state x="505" y="293" width="670" height="676" key="search.everywhere.popup/0.23.1680.952@0.23.1680.952" timestamp="1611670518746" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1612428788139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
+    <SUITE FILE_PATH="coverage/shop@Development__shop.rcov" NAME="Development: shop Coverage Results" MODIFIED="1612438013227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shop" />
   </component>
 </project>
